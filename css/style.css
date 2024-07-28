@@ -80,3 +80,46 @@ body {
 .follow:hover {
   background-color: #c1c0c5;
 }
+
+/* Banner Styles */
+.banner {
+  background-image: url("../images/group_14.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-container {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-right-side img {
+  width: 550px;
+}
+
+.banner-title {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.banner-subtitle {
+  font-size: 66px;
+  color: #ff42a5;
+}
+
+.banner-desctiption-groups {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-description {
+  font-size: 16px;
+  color: rgb(43, 42, 42);
+  margin: 5px 0px;
+}
