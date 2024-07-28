@@ -513,3 +513,54 @@ body {
   font-size: 14px;
   color: rgb(71, 70, 70);
 }
+
+/* Play Gmaes Online Styles */
+.play-games {
+  padding: 80px 0px;
+  margin-bottom: 30px;
+}
+
+.play-games-container {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-games-left-side {
+  width: 60%;
+  text-align: start;
+  position: relative;
+}
+
+.play-games-left-side img:first-child {
+  width: 400px;
+  display: flex;
+}
+
+.play-games-left-side img:last-child {
+  width: 150px;
+  position: absolute;
+  bottom: -60px;
+  left: 320px;
+  border-right: 2px solid white;
+  box-shadow: #fff9fc;
+}
+
+.play-games-right-side {
+  width: 40%;
+}
+
+.play-games-title {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.play-games-description {
+  width: 70%;
+  font-size: 14px;
+  color: rgb(71, 70, 70);
+}
