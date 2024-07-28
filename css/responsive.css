@@ -282,6 +282,251 @@
   }
 }
 
+/* Tablet */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* Navbar */
+  header,
+  .nav-container,
+  .footer-container {
+    width: 100%;
+  }
+
+  /* Banner */
+  .banner-container {
+    width: 80%;
+    flex-direction: column-reverse;
+  }
+
+  .banner-left-side {
+    background-image: url("../images/group_14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 55px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-left-side img,
+  .banner-right-side img {
+    width: 100%;
+  }
+
+  /* Gamer */
+  .gamer {
+    width: 100%;
+  }
+
+  .gamer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+  }
+
+  .gamer-left-side {
+    width: 100%;
+  }
+
+  .gamer-left-side img {
+    width: 100%;
+  }
+
+  .gamer-right-side {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gamer-description {
+    text-align: center;
+  }
+
+  .gamer-purpose {
+    margin-top: 50px;
+  }
+
+  /* Online Games */
+  .online-gamer-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .online-gamer-title {
+    font-size: 40px;
+  }
+
+  .online-gamer-subtitle {
+    font-size: 14px;
+  }
+
+  .online-games-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .online-games-card {
+    width: 100%;
+    height: 380px;
+    margin: 0 auto;
+  }
+
+  .online-games-image {
+    width: 100%;
+    height: 340px;
+    border-radius: 10px;
+  }
+
+  .online-games-card-title {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  /* Play Instantly */
+  .play-instantly-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .play-instantly-left-side {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .play-instantly-description {
+    margin: 0px;
+  }
+
+  .play-instantly-right-side {
+    width: 60%;
+  }
+
+  .play-instantly-right-side img:first-child {
+    width: 100% !important;
+  }
+
+  .play-instantly-right-side img:last-child {
+    bottom: -45px;
+    left: -45px;
+  }
+
+  /* Play Games */
+  .play-games-container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .play-games-left-side {
+    width: 60% !important;
+    margin: 0 auto;
+  }
+
+  .play-games-left-side img:first-child {
+    width: 100% !important;
+  }
+
+  .play-games-left-side img:last-child {
+    width: 40%;
+    bottom: -70px;
+    left: 350px;
+  }
+
+  .play-games-right-side {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  /* Careers */
+  .careers-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px !important;
+  }
+
+  .careers-left-side {
+    width: 80%;
+    margin-left: 0px !important;
+  }
+
+  .careers-title {
+    margin-top: 35px;
+  }
+
+  .careers-btn {
+    margin-bottom: 20px;
+  }
+
+  .careers-groups {
+    flex-direction: column;
+  }
+
+  .careers-group {
+    flex-direction: row;
+  }
+
+  .careers-right-side {
+    width: 80%;
+    margin-bottom: 55px;
+    margin-top: 20px;
+  }
+
+  /* Icons */
+  .icons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px !important;
+  }
+
+  .icon-group-4,
+  .icon-group-5,
+  .icon-group-9 {
+    display: none;
+  }
+
+  /* Footer */
+  footer {
+    width: 100%;
+  }
+
+  .nav-container,
+  .nav-container ul {
+    flex-direction: column;
+  }
+
+  .nav-logo {
+    margin-bottom: 20px;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+}
+
 /* 
 MOBILE:
 1. Navbar
